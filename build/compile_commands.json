@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/jack/obc_ai/build",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3/Eigen -I/Users/jack/obc_ai/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1 -o CMakeFiles/obc_ai_sw.dir/src/main.cpp.o -c /Users/jack/obc_ai/src/main.cpp",
+  "file": "/Users/jack/obc_ai/src/main.cpp",
+  "output": "CMakeFiles/obc_ai_sw.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/jack/obc_ai/build",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3/Eigen -I/Users/jack/obc_ai/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1 -o CMakeFiles/obc_ai_sw.dir/src/network/ethernetPayload.cpp.o -c /Users/jack/obc_ai/src/network/ethernetPayload.cpp",
+  "file": "/Users/jack/obc_ai/src/network/ethernetPayload.cpp",
+  "output": "CMakeFiles/obc_ai_sw.dir/src/network/ethernetPayload.cpp.o"
+},
+{
+  "directory": "/Users/jack/obc_ai/build",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3/Eigen -I/Users/jack/obc_ai/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1 -o CMakeFiles/obc_ai_sw.dir/src/network/uartMicro.cpp.o -c /Users/jack/obc_ai/src/network/uartMicro.cpp",
+  "file": "/Users/jack/obc_ai/src/network/uartMicro.cpp",
+  "output": "CMakeFiles/obc_ai_sw.dir/src/network/uartMicro.cpp.o"
+},
+{
+  "directory": "/Users/jack/obc_ai/build",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3/Eigen -I/Users/jack/obc_ai/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1 -o CMakeFiles/obc_ai_sw.dir/src/network/uartPayload1.cpp.o -c /Users/jack/obc_ai/src/network/uartPayload1.cpp",
+  "file": "/Users/jack/obc_ai/src/network/uartPayload1.cpp",
+  "output": "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload1.cpp.o"
+},
+{
+  "directory": "/Users/jack/obc_ai/build",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3/Eigen -I/Users/jack/obc_ai/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1 -o CMakeFiles/obc_ai_sw.dir/src/network/uartPayload2.cpp.o -c /Users/jack/obc_ai/src/network/uartPayload2.cpp",
+  "file": "/Users/jack/obc_ai/src/network/uartPayload2.cpp",
+  "output": "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload2.cpp.o"
+}
+]

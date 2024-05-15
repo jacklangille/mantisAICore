@@ -1,0 +1,3 @@
+/Users/jack/obc_ai/build/CMakeFiles/obc_ai_sw.dir
+/Users/jack/obc_ai/build/CMakeFiles/edit_cache.dir
+/Users/jack/obc_ai/build/CMakeFiles/rebuild_cache.dir
