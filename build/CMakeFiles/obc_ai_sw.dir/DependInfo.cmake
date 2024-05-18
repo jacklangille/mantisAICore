@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jack/obc_ai/src/main.cpp" "CMakeFiles/obc_ai_sw.dir/src/main.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/main.cpp.o.d"
-  "/Users/jack/obc_ai/src/network/ethernetPayload.cpp" "CMakeFiles/obc_ai_sw.dir/src/network/ethernetPayload.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/network/ethernetPayload.cpp.o.d"
-  "/Users/jack/obc_ai/src/network/uartMicro.cpp" "CMakeFiles/obc_ai_sw.dir/src/network/uartMicro.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/network/uartMicro.cpp.o.d"
-  "/Users/jack/obc_ai/src/network/uartPayload1.cpp" "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload1.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload1.cpp.o.d"
-  "/Users/jack/obc_ai/src/network/uartPayload2.cpp" "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload2.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload2.cpp.o.d"
+  "/home/jwl/dss/mantisAICore/src/main.cpp" "CMakeFiles/obc_ai_sw.dir/src/main.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/main.cpp.o.d"
+  "/home/jwl/dss/mantisAICore/src/network/ethernetPayload.cpp" "CMakeFiles/obc_ai_sw.dir/src/network/ethernetPayload.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/network/ethernetPayload.cpp.o.d"
+  "/home/jwl/dss/mantisAICore/src/network/uartMicro.cpp" "CMakeFiles/obc_ai_sw.dir/src/network/uartMicro.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/network/uartMicro.cpp.o.d"
+  "/home/jwl/dss/mantisAICore/src/network/uartPayload1.cpp" "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload1.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload1.cpp.o.d"
+  "/home/jwl/dss/mantisAICore/src/network/uartPayload2.cpp" "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload2.cpp.o" "gcc" "CMakeFiles/obc_ai_sw.dir/src/network/uartPayload2.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
