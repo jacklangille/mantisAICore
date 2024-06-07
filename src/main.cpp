@@ -6,14 +6,15 @@
 #include <unistd.h>
 
 int uartInit(const char *port) {
-
   int uart_fd = open(port, O_RDWR | O_NOCTTY | O_NDELAY);
   if (uart_fd == -1) {
     return -1;
   }
+
   // fetch current attributes
   struct termios options;
   tcgetattr(uart_fd, &options);
+
   // set baud rate
   cfsetispeed(&options, B9600);
   cfsetospeed(&options, B9600);
