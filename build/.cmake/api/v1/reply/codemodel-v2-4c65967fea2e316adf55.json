@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "obc_ai_sw::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-obc_ai_sw-594d898118d7876c12eb.json",
+					"jsonFile" : "target-obc_ai_sw-7fd7e986c6dcf7d7e6a0.json",
 					"name" : "obc_ai_sw",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/jwl/dss/mantisAICore/build",
-		"source" : "/home/jwl/dss/mantisAICore"
+		"build" : "/Users/jack/mantisAICore/build",
+		"source" : "/Users/jack/mantisAICore"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 7
+		"minor" : 6
 	}
 }

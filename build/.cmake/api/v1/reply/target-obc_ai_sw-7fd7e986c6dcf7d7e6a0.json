@@ -48,7 +48,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++14"
+					"fragment" : "-std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1"
 				}
 			],
 			"includes" : 
@@ -59,7 +59,7 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/jwl/dss/mantisAICore/include"
+					"path" : "/Users/jack/mantisAICore/include"
 				}
 			],
 			"language" : "CXX",

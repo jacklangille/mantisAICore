@@ -51,8 +51,10 @@ int main(void) {
   std::cout << "UART Initialized." << std::endl;
 
   char buffer[256];
+
   while (true) {
     int bytes_read = read(uart_fd, buffer, sizeof(buffer) - 1);
+
     if (bytes_read > 0) {
       buffer[bytes_read] = '\0';
       std::string input(buffer);
@@ -61,6 +63,7 @@ int main(void) {
       std::cerr << strerror(errno) << std::endl;
     }
   }
+
   close(uart_fd);
   return 0;
 }
