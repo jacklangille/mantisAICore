@@ -48,7 +48,7 @@ int main(void) {
     std::cerr << "Failed to initialize UART" << std::endl;
     return -1;
   }
-
+  // change test
   std::cout << "UART Initialized." << std::endl;
 
   char buffer[256];
