@@ -1,0 +1,3 @@
+/home/jwl/mantisAICore/build_x86/CMakeFiles/main.dir
+/home/jwl/mantisAICore/build_x86/CMakeFiles/edit_cache.dir
+/home/jwl/mantisAICore/build_x86/CMakeFiles/rebuild_cache.dir
