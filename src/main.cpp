@@ -5,6 +5,7 @@
 #include <thread>
 #include <unistd.h>
 
+// test from mac
 int uartInit(const char *port) {
   int uart_fd = open(port, O_RDWR | O_NOCTTY | O_NDELAY);
   if (uart_fd == -1) {
