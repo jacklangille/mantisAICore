@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/sender.dir/src/sender.cpp.o -o sender  libproto_files.a /usr/lib/x86_64-linux-gnu/libprotobuf.so 

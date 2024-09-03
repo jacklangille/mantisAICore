@@ -1,5 +1,0 @@
-/home/jack/jetsonCore/build/CMakeFiles/proto_files.dir
-/home/jack/jetsonCore/build/CMakeFiles/sender.dir
-/home/jack/jetsonCore/build/CMakeFiles/adam.dir
-/home/jack/jetsonCore/build/CMakeFiles/edit_cache.dir
-/home/jack/jetsonCore/build/CMakeFiles/rebuild_cache.dir
