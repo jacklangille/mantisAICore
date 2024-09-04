@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/receiver.dir/src/receiver.cpp.o -o receiver  libproto_files.a /usr/lib/x86_64-linux-gnu/libprotobuf.so 

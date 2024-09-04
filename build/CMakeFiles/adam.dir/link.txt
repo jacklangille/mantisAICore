@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/adam.dir/src/adam.cpp.o -o adam  libproto_files.a /usr/lib/x86_64-linux-gnu/libprotobuf.so 

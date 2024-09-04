@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/jack/jetsonCore/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/proto_files.dir/protocol.pb.cc.o -c /home/jack/jetsonCore/build/protocol.pb.cc",
+  "file": "/home/jack/jetsonCore/build/protocol.pb.cc"
+},
+{
+  "directory": "/home/jack/jetsonCore/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/sender.dir/src/sender.cpp.o -c /home/jack/jetsonCore/src/sender.cpp",
+  "file": "/home/jack/jetsonCore/src/sender.cpp"
+},
+{
+  "directory": "/home/jack/jetsonCore/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/adam.dir/src/adam.cpp.o -c /home/jack/jetsonCore/src/adam.cpp",
+  "file": "/home/jack/jetsonCore/src/adam.cpp"
+}
+]

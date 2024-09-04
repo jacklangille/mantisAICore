@@ -1,9 +1,21 @@
-cmake_minimum_required(VERSION 3.10) 
+cmake_minimum_required(VERSION 3.5)
+project(jetsonCore)
 
-project(ai_csw)
+set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+find_package(Protobuf REQUIRED)
 
-set(SOURCE_FILES src/main.cpp)
-add_executable(main ${SOURCE_FILES})
+include_directories(${Protobuf_INCLUDE_DIRS})
+
+set(PROTO_SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+set(PROTO_FILES ${PROTO_SRC_DIR}/proto/protocol.proto)
+
+protobuf_generate_cpp(PROTO_SRCS PROTO_HDRS ${PROTO_FILES})
+
+add_library(proto_files ${PROTO_SRCS} ${PROTO_HDRS})
+
+add_executable(sender src/sender.cpp)
+add_executable(adam src/adam.cpp)
+
+target_link_libraries(sender proto_files ${Protobuf_LIBRARIES})
+target_link_libraries(adam proto_files ${Protobuf_LIBRARIES})
